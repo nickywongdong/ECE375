@@ -1,0 +1,21 @@
+What is the initial value of DDRB:	0
+Initial Value of PortB:			0
+Based on the initial values of DDRB and PORTB (all 0's), the I/O configuration is Input
+
+Break 1 Stack Value:	10FF
+Break 2, Contents of r0:0xFF
+
+Number of loops ran: 4
+We change i (ldi i, $06) if we want to change the number of loops
+Current Contents of R01: 0XAA
+Breakpoint 6...
+Current contents of R02:	0x0F
+Current contents of R03:	0x0F
+
+Stepped into FUNCTION subroutine
+
+Stack pointer:		10FD
+
+after Step Out
+$0105:	BA	
+$0104:	0E

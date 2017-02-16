@@ -1,0 +1,56 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.1.130\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.1.130\avrasm\inc\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\Debug\Lab5.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab5.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab5.map</FILE>
+  <FILE>Lab5.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>48</LINE></INIT>
+  <MAIN><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>62</LINE></MAIN>
+  <ADD16><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>112</LINE></ADD16>
+  <SUB16><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>147</LINE></SUB16>
+  <MUL24><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>212</LINE></MUL24>
+  <COMPOUND><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>276</LINE></COMPOUND>
+  <DONE><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>99</LINE></DONE>
+  <ADD16_OP1><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>508</LINE></ADD16_OP1>
+  <ADD16_OP2><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>510</LINE></ADD16_OP2>
+  <ADD16_Result><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>514</LINE></ADD16_Result>
+  <ADDCARRY><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>137</LINE></ADDCARRY>
+  <SUB16_OP1><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>520</LINE></SUB16_OP1>
+  <SUB16_OP2><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>522</LINE></SUB16_OP2>
+  <SUB16_Result><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>526</LINE></SUB16_Result>
+  <SUBCARRY><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>187</LINE></SUBCARRY>
+  <MUL24_OP1><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>533</LINE></MUL24_OP1>
+  <MUL24_Result><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>539</LINE></MUL24_Result>
+  <MUL24_OLOOP><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>225</LINE></MUL24_OLOOP>
+  <MUL24_OP2><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>535</LINE></MUL24_OP2>
+  <MUL24_ILOOP><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>232</LINE></MUL24_ILOOP>
+  <MUL16><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>394</LINE></MUL16>
+  <addrB><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>501</LINE></addrB>
+  <LAddrP><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>502</LINE></LAddrP>
+  <MUL16_OLOOP><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>421</LINE></MUL16_OLOOP>
+  <addrA><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>500</LINE></addrA>
+  <MUL16_ILOOP><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>428</LINE></MUL16_ILOOP>
+  <FUNC><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>472</LINE></FUNC>
+  <OperandD><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>487</LINE></OperandD>
+  <OperandE><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>489</LINE></OperandE>
+  <OperandF><FILE>C:\Users\wongnich\Desktop\ECE375\Lab5\Lab5\Lab5\main.asm</FILE><LINE>491</LINE></OperandF>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,292 @@
+
+Lab2Challenge.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  000001d2  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         0000017e  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .comment      00000030  00000000  00000000  000001d2  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000204  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  00000240  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000a5d  00000000  00000000  00000260  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000007fd  00000000  00000000  00000cbd  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000339  00000000  00000000  000014ba  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  000017f4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    0000040f  00000000  00000000  00001818  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    000001b0  00000000  00000000  00001c27  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000010  00000000  00000000  00001dd7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	4b c0       	rjmp	.+150    	; 0x9c <__bad_interrupt>
+   6:	00 00       	nop
+   8:	49 c0       	rjmp	.+146    	; 0x9c <__bad_interrupt>
+   a:	00 00       	nop
+   c:	47 c0       	rjmp	.+142    	; 0x9c <__bad_interrupt>
+   e:	00 00       	nop
+  10:	45 c0       	rjmp	.+138    	; 0x9c <__bad_interrupt>
+  12:	00 00       	nop
+  14:	43 c0       	rjmp	.+134    	; 0x9c <__bad_interrupt>
+  16:	00 00       	nop
+  18:	41 c0       	rjmp	.+130    	; 0x9c <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	3f c0       	rjmp	.+126    	; 0x9c <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	3d c0       	rjmp	.+122    	; 0x9c <__bad_interrupt>
+  22:	00 00       	nop
+  24:	3b c0       	rjmp	.+118    	; 0x9c <__bad_interrupt>
+  26:	00 00       	nop
+  28:	39 c0       	rjmp	.+114    	; 0x9c <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	37 c0       	rjmp	.+110    	; 0x9c <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	35 c0       	rjmp	.+106    	; 0x9c <__bad_interrupt>
+  32:	00 00       	nop
+  34:	33 c0       	rjmp	.+102    	; 0x9c <__bad_interrupt>
+  36:	00 00       	nop
+  38:	31 c0       	rjmp	.+98     	; 0x9c <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	2f c0       	rjmp	.+94     	; 0x9c <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	2d c0       	rjmp	.+90     	; 0x9c <__bad_interrupt>
+  42:	00 00       	nop
+  44:	2b c0       	rjmp	.+86     	; 0x9c <__bad_interrupt>
+  46:	00 00       	nop
+  48:	29 c0       	rjmp	.+82     	; 0x9c <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	27 c0       	rjmp	.+78     	; 0x9c <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	25 c0       	rjmp	.+74     	; 0x9c <__bad_interrupt>
+  52:	00 00       	nop
+  54:	23 c0       	rjmp	.+70     	; 0x9c <__bad_interrupt>
+  56:	00 00       	nop
+  58:	21 c0       	rjmp	.+66     	; 0x9c <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	1f c0       	rjmp	.+62     	; 0x9c <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	1d c0       	rjmp	.+58     	; 0x9c <__bad_interrupt>
+  62:	00 00       	nop
+  64:	1b c0       	rjmp	.+54     	; 0x9c <__bad_interrupt>
+  66:	00 00       	nop
+  68:	19 c0       	rjmp	.+50     	; 0x9c <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	17 c0       	rjmp	.+46     	; 0x9c <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	15 c0       	rjmp	.+42     	; 0x9c <__bad_interrupt>
+  72:	00 00       	nop
+  74:	13 c0       	rjmp	.+38     	; 0x9c <__bad_interrupt>
+  76:	00 00       	nop
+  78:	11 c0       	rjmp	.+34     	; 0x9c <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	0f c0       	rjmp	.+30     	; 0x9c <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	0d c0       	rjmp	.+26     	; 0x9c <__bad_interrupt>
+  82:	00 00       	nop
+  84:	0b c0       	rjmp	.+22     	; 0x9c <__bad_interrupt>
+  86:	00 00       	nop
+  88:	09 c0       	rjmp	.+18     	; 0x9c <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e1       	ldi	r29, 0x10	; 16
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+  98:	02 d0       	rcall	.+4      	; 0x9e <main>
+  9a:	6f c0       	rjmp	.+222    	; 0x17a <_exit>
+
+0000009c <__bad_interrupt>:
+  9c:	b1 cf       	rjmp	.-158    	; 0x0 <__vectors>
+
+0000009e <main>:
+#include <util/delay.h>
+#include <stdio.h>
+
+int main(void)
+{
+	DDRB = 0b11110000;      // configure Port B pins for input/output
+  9e:	80 ef       	ldi	r24, 0xF0	; 240
+  a0:	87 bb       	out	0x17, r24	; 23
+	PORTB = 0b01100000;     // set initial value for Port B outputs
+  a2:	80 e6       	ldi	r24, 0x60	; 96
+  a4:	88 bb       	out	0x18, r24	; 24
+	DDRD = 0b00000000;		//configure Port D pins for input
+  a6:	11 ba       	out	0x11, r1	; 17
+	PORTD = 0b00000000;		//set initial value for Port D (no output)
+  a8:	12 ba       	out	0x12, r1	; 18
+
+	while (1) // loop forever
+	{
+		PORTB = 0b01100000;     // make TekBot move forward
+  aa:	90 e6       	ldi	r25, 0x60	; 96
+		}
+		else if(PIND == 0b11111100){	//both whisker (same as left whisker)
+			_delay_ms(500);			//continue pushing for a little bit
+			PORTB = 0b00000000;	//back up
+			_delay_ms(200);
+			PORTB = 0b01000000;	//turn right
+  ac:	20 e4       	ldi	r18, 0x40	; 64
+		
+		if(PIND == 0b11111110){	//right whisker
+			_delay_ms(500);			//continue pushing for a little bit
+			PORTB = 0b00000000;	//back up
+			_delay_ms(200);		//back up slightly
+			PORTB = 0b00100000;	//turn left
+  ae:	30 e2       	ldi	r19, 0x20	; 32
+	DDRD = 0b00000000;		//configure Port D pins for input
+	PORTD = 0b00000000;		//set initial value for Port D (no output)
+
+	while (1) // loop forever
+	{
+		PORTB = 0b01100000;     // make TekBot move forward
+  b0:	98 bb       	out	0x18, r25	; 24
+		
+		
+		if(PIND == 0b11111110){	//right whisker
+  b2:	80 b3       	in	r24, 0x10	; 16
+  b4:	8e 3f       	cpi	r24, 0xFE	; 254
+  b6:	f1 f4       	brne	.+60     	; 0xf4 <main+0x56>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  b8:	4f ef       	ldi	r20, 0xFF	; 255
+  ba:	59 e6       	ldi	r21, 0x69	; 105
+  bc:	88 e1       	ldi	r24, 0x18	; 24
+  be:	41 50       	subi	r20, 0x01	; 1
+  c0:	50 40       	sbci	r21, 0x00	; 0
+  c2:	80 40       	sbci	r24, 0x00	; 0
+  c4:	e1 f7       	brne	.-8      	; 0xbe <main+0x20>
+  c6:	00 c0       	rjmp	.+0      	; 0xc8 <main+0x2a>
+  c8:	00 00       	nop
+			_delay_ms(500);			//continue pushing for a little bit
+			PORTB = 0b00000000;	//back up
+  ca:	18 ba       	out	0x18, r1	; 24
+  cc:	4f ef       	ldi	r20, 0xFF	; 255
+  ce:	53 ec       	ldi	r21, 0xC3	; 195
+  d0:	89 e0       	ldi	r24, 0x09	; 9
+  d2:	41 50       	subi	r20, 0x01	; 1
+  d4:	50 40       	sbci	r21, 0x00	; 0
+  d6:	80 40       	sbci	r24, 0x00	; 0
+  d8:	e1 f7       	brne	.-8      	; 0xd2 <main+0x34>
+  da:	00 c0       	rjmp	.+0      	; 0xdc <main+0x3e>
+  dc:	00 00       	nop
+			_delay_ms(200);		//back up slightly
+			PORTB = 0b00100000;	//turn left
+  de:	38 bb       	out	0x18, r19	; 24
+  e0:	4f ef       	ldi	r20, 0xFF	; 255
+  e2:	53 ec       	ldi	r21, 0xC3	; 195
+  e4:	89 e0       	ldi	r24, 0x09	; 9
+  e6:	41 50       	subi	r20, 0x01	; 1
+  e8:	50 40       	sbci	r21, 0x00	; 0
+  ea:	80 40       	sbci	r24, 0x00	; 0
+  ec:	e1 f7       	brne	.-8      	; 0xe6 <main+0x48>
+  ee:	00 c0       	rjmp	.+0      	; 0xf0 <main+0x52>
+  f0:	00 00       	nop
+  f2:	de cf       	rjmp	.-68     	; 0xb0 <main+0x12>
+			_delay_ms(200);	//slightly
+		}
+		else if(PIND == 0b11111101){	//left whisker
+  f4:	80 b3       	in	r24, 0x10	; 16
+  f6:	8d 3f       	cpi	r24, 0xFD	; 253
+  f8:	f1 f4       	brne	.+60     	; 0x136 <main+0x98>
+  fa:	4f ef       	ldi	r20, 0xFF	; 255
+  fc:	59 e6       	ldi	r21, 0x69	; 105
+  fe:	88 e1       	ldi	r24, 0x18	; 24
+ 100:	41 50       	subi	r20, 0x01	; 1
+ 102:	50 40       	sbci	r21, 0x00	; 0
+ 104:	80 40       	sbci	r24, 0x00	; 0
+ 106:	e1 f7       	brne	.-8      	; 0x100 <main+0x62>
+ 108:	00 c0       	rjmp	.+0      	; 0x10a <main+0x6c>
+ 10a:	00 00       	nop
+			_delay_ms(500);			//continue pushing for a little bit
+			PORTB = 0b00000000;	//back up
+ 10c:	18 ba       	out	0x18, r1	; 24
+ 10e:	4f ef       	ldi	r20, 0xFF	; 255
+ 110:	53 ec       	ldi	r21, 0xC3	; 195
+ 112:	89 e0       	ldi	r24, 0x09	; 9
+ 114:	41 50       	subi	r20, 0x01	; 1
+ 116:	50 40       	sbci	r21, 0x00	; 0
+ 118:	80 40       	sbci	r24, 0x00	; 0
+ 11a:	e1 f7       	brne	.-8      	; 0x114 <main+0x76>
+ 11c:	00 c0       	rjmp	.+0      	; 0x11e <main+0x80>
+ 11e:	00 00       	nop
+			_delay_ms(200);
+			PORTB = 0b01000000;	//turn right
+ 120:	28 bb       	out	0x18, r18	; 24
+ 122:	4f ef       	ldi	r20, 0xFF	; 255
+ 124:	53 ec       	ldi	r21, 0xC3	; 195
+ 126:	89 e0       	ldi	r24, 0x09	; 9
+ 128:	41 50       	subi	r20, 0x01	; 1
+ 12a:	50 40       	sbci	r21, 0x00	; 0
+ 12c:	80 40       	sbci	r24, 0x00	; 0
+ 12e:	e1 f7       	brne	.-8      	; 0x128 <main+0x8a>
+ 130:	00 c0       	rjmp	.+0      	; 0x132 <main+0x94>
+ 132:	00 00       	nop
+ 134:	bd cf       	rjmp	.-134    	; 0xb0 <main+0x12>
+			_delay_ms(200);
+		}
+		else if(PIND == 0b11111100){	//both whisker (same as left whisker)
+ 136:	80 b3       	in	r24, 0x10	; 16
+ 138:	8c 3f       	cpi	r24, 0xFC	; 252
+ 13a:	09 f0       	breq	.+2      	; 0x13e <main+0xa0>
+ 13c:	b9 cf       	rjmp	.-142    	; 0xb0 <main+0x12>
+ 13e:	4f ef       	ldi	r20, 0xFF	; 255
+ 140:	59 e6       	ldi	r21, 0x69	; 105
+ 142:	88 e1       	ldi	r24, 0x18	; 24
+ 144:	41 50       	subi	r20, 0x01	; 1
+ 146:	50 40       	sbci	r21, 0x00	; 0
+ 148:	80 40       	sbci	r24, 0x00	; 0
+ 14a:	e1 f7       	brne	.-8      	; 0x144 <main+0xa6>
+ 14c:	00 c0       	rjmp	.+0      	; 0x14e <main+0xb0>
+ 14e:	00 00       	nop
+			_delay_ms(500);			//continue pushing for a little bit
+			PORTB = 0b00000000;	//back up
+ 150:	18 ba       	out	0x18, r1	; 24
+ 152:	4f ef       	ldi	r20, 0xFF	; 255
+ 154:	53 ec       	ldi	r21, 0xC3	; 195
+ 156:	89 e0       	ldi	r24, 0x09	; 9
+ 158:	41 50       	subi	r20, 0x01	; 1
+ 15a:	50 40       	sbci	r21, 0x00	; 0
+ 15c:	80 40       	sbci	r24, 0x00	; 0
+ 15e:	e1 f7       	brne	.-8      	; 0x158 <main+0xba>
+ 160:	00 c0       	rjmp	.+0      	; 0x162 <main+0xc4>
+ 162:	00 00       	nop
+			_delay_ms(200);
+			PORTB = 0b01000000;	//turn right
+ 164:	28 bb       	out	0x18, r18	; 24
+ 166:	4f ef       	ldi	r20, 0xFF	; 255
+ 168:	53 ec       	ldi	r21, 0xC3	; 195
+ 16a:	89 e0       	ldi	r24, 0x09	; 9
+ 16c:	41 50       	subi	r20, 0x01	; 1
+ 16e:	50 40       	sbci	r21, 0x00	; 0
+ 170:	80 40       	sbci	r24, 0x00	; 0
+ 172:	e1 f7       	brne	.-8      	; 0x16c <main+0xce>
+ 174:	00 c0       	rjmp	.+0      	; 0x176 <main+0xd8>
+ 176:	00 00       	nop
+ 178:	9b cf       	rjmp	.-202    	; 0xb0 <main+0x12>
+
+0000017a <_exit>:
+ 17a:	f8 94       	cli
+
+0000017c <__stop_program>:
+ 17c:	ff cf       	rjmp	.-2      	; 0x17c <__stop_program>
